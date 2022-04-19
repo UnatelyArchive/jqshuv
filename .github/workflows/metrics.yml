@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     name: "📷 Profile Metrics"
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: unately/metrics@latest
         name: "🧨 Generate Image"
         with:
           token: ${{ secrets.METRICS_TOKEN }}
